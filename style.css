@@ -1,0 +1,54 @@
+body{
+    background: rgb(48, 46, 46);
+}
+.container{
+    width: 400px;
+    text-align: center;
+    padding: 33px;
+    margin-top: 5px;
+    margin-left: 33%;
+}
+.container h1{
+    color: white;
+    text-shadow: 1px 1px 10px rgb(145, 219, 224);
+}
+input{
+    width: 270px;
+    padding: 10px;
+    border: 2px solid rgb(8, 91, 124);
+    outline: none;
+    border-radius: 15px;
+}
+input:hover{
+    box-shadow: 0 0 10px blue;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(76, 146, 105);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 20px goldenrod;
+
+}
+.text ul{
+    position: relative;
+    background: linear-gradient(rgb(1, 16, 26), white);
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 100px;
+    width: 90%;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+     
+}
